@@ -1,0 +1,66 @@
+Step 1: what is an API
+Application Programming Interface
+
+cross platform , anyone can call it.
+
+2 types of API
+rest api / restful api set of rule
+
+rest API:
+1. server-to-client /client to server
+   html/React ajax from client to request server for data processing
+DATA output must in xml or json
+2. json/xml
+    data must be in xml or json formate
+    json
+    [
+        {
+            asd:as
+        },
+        {
+            asd:123
+        }
+    ]
+    xml
+    <?xml version="1.0" encoding="UTF-8"?>
+        <note>
+        <to>Tove</to>
+        <from>Jani</from>
+        <heading>Reminder</heading>
+        <body>Don't forget me this weekend!</body>
+    </note>
+
+3. caching //restful api (redis caching db)
+ 
+If there one point is missing then it is REST API (4 points)
+
+
+//work
+The Book
+http verbs
+
+GET  //fetch data
+POST // save data 
+PUT/PATCH //update
+DELETE //delete 
+
+Architecture
+
+Good Practice
+
+1. Controller  
+2. Model   //database schema table fields book (title,desciption,author)
+3. Routes  //end-points /get /post/ put and delete
+index.js  //Controller,routes set in return to server
+server.js  //enter point start of app
+.env   //port number in | email  
+
+
+package third-party
+
+from npm
+MERN
+
+express.js
+mongoose
+node
