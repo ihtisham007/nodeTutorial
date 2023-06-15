@@ -1,0 +1,4 @@
+Types of Modules 
+1. Core Modules | Built-in (http)
+2. Local Modules (module exports) user
+3. Third-Party Modules  (npm (express, mongoose))
