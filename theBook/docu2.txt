@@ -1,0 +1,31 @@
+Parallel Processing 
+
+//1. callback 
+//2. promises Await
+//3. async await 
+
+1. function pass in function as argument
+example
+    setTimeout(function(data){
+        //code goes here
+        alert(123)
+    }, 2000); //Time before execution
+
+2. promises await
+ resolve value in future if there is error then exception
+ getSomethingWithPromise()
+  .then(data => {/* do something with data */})
+  .catch(err => {/* handle the error */})
+
+
+3. async await
+example 
+    const ayncfunction = async() =>{
+        await 
+    } 
+    function asd async (){
+
+    }
+
+
+//Blocking  Syncrotion| Syncrotion Non-Blocking Asyncrotion 
