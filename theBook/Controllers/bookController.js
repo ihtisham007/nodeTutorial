@@ -3,9 +3,15 @@
 //router and model
 
 
+
 //get all books
 const getBook  = async(req,res) =>{
-
+    console.log('in get function')
+    res
+        .status(200)
+        .json({
+            msg: "server is ruunig"
+        })
 }
 
 //save book
